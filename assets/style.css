@@ -22,18 +22,19 @@ body {
 	font-size: 26px;
 }
 
-.nav ul {
+nav ul {
 	display: flex;
-	list-style-type: none;
+	flex-direction: row;
 	font-size: 14px;
 	margin-bottom: 0;
 }
 
-.nav li {
+nav li {
 	padding-inline: 10px;
+	list-style-type: none;
 }
 
-.nav a {
+nav a {
 	text-decoration: none;
 	color: #000
 }
